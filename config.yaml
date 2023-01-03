@@ -1,7 +1,7 @@
 settings:
   title: 'status.hen.ee'
   url: 'https://status.hen.ee' # used for Slack messages
-  logo: # image in ./public/ folder
+  logo: favicon.png # image in ./public/ folder
   daysInHistogram: 90 # number of days you want to display in histogram
   collectResponseTimes: true # collects avg response times from CRON locations
 
