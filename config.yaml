@@ -38,14 +38,6 @@ monitors:
     expectStatus: 200 # operational status, default=200
     followRedirect: false # should fetch follow redirects, default=false
     linkable: true # allows the title to be a link, default=true
-
-  - id: nit
-    name: nitter
-    url: 'https://nit.hen.ee/' # URL to fetch
-    method: GET # default=GET
-    expectStatus: 200 # operational status, default=200
-    followRedirect: false # should fetch follow redirects, default=false
-    linkable: true # allows the title to be a link, default=true
   
   - id: meet
     name: meet
